@@ -1,0 +1,57 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container {
+    width: 360px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+#newtask {
+    display: flex;
+    gap: 10px;
+}
+
+#newtask input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+#newtask button {
+    padding: 10px 18px;
+    background: #4a7df0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f7f7;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.task button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.task .material-symbols-outlined {
+    font-size: 22px;
+    color: red;
+}
+
